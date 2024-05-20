@@ -22,7 +22,7 @@ values ('Aretha Montgomery', 30, 'auge.id.ante@odioAliquam.com', 'a0B13OL'),
 -- 3 - Após ter inserido os registros na tabela usuarios, foi identificado que o registro que possui 
 -- o e-mail raja.feugiat@nonummy.com informou seu nome errado. Faça uma atualização nesse registro alterando o nome 
 -- para Raja W. Coffey Thomas.
-update usuarios set nome = 'Raja W. Coffey Thomas' where email = 'raja.feugiat@nonummy.com';
+update from usuarios set nome = 'Raja W. Coffey Thomas' where email = 'raja.feugiat@nonummy.com';
 
 
 -- 4 - O cliente percebeu que na tabela enviada anteriormente para inserir os usuários no banco de dados 
